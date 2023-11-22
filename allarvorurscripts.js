@@ -3,6 +3,7 @@ const productsContainer = document.getElementById("productContainer");
 const nextPageButton = document.getElementById("nextPage");
 let offset = 0;
 
+
 function fetchProducts(url) {
     return fetch(url)
         .then(response => {
