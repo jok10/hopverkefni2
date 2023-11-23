@@ -23,11 +23,20 @@ body {
     border-radius: 5px;
     text-decoration: none;
     color: black;
-    
 }
 
 
-.product:visited{
+@media (max-width: 600px) {
+    #productContainer {
+        justify-content: center; 
+    }
+
+    .product {
+        width: 100%; 
+    }
+}
+
+.product:visited {
     text-decoration: none;
     color: black;
 }
@@ -56,7 +65,7 @@ p {
     margin: 0;
 }
 
-.description{
+.description {
     display: none;
 }
 
