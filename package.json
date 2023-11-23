@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrency": "^0.1.4",
+    "concurrently": "^8.2.2",
+    "lint": "^0.8.19",
+    "sass": "^1.69.5",
+    "stylelint": "^15.11.0",
+    "stylelint-config-sass-guidelines": "^10.0.0"
+  },
+  "name": "Hópverkefni2",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "sass styles.scss styles.css",
+    "sass-watch": "sass --watch *.scss styles.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync",
+    "lint": "stylelint styles.scss ./**/*.scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
