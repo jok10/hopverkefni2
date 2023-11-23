@@ -69,12 +69,7 @@ p {
     display: none;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+
 
 #productDetails {
     max-width: 600px;
@@ -110,20 +105,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-h2 {
-    margin-bottom: 10px;
-}
-
-p {
-    margin: 0;
-}
 
 .product-type {
     font-style: italic;
