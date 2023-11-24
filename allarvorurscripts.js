@@ -15,7 +15,7 @@ function fetchProducts(url) {
 }
 
 function displayProducts(products) {
-    // Clear existing products
+    
     productsContainer.innerHTML = '';
 
     products.forEach(product => {
@@ -67,7 +67,7 @@ function nextPage() {
 
 nextPageButton.addEventListener("click", nextPage);
 
-// Initial load
+
 fetchProducts(apiUrl)
     .then(products => {
         displayProducts(products.items);
