@@ -161,3 +161,19 @@ p {
     text-decoration: none;
     outline: none;
 }
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+.header-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
