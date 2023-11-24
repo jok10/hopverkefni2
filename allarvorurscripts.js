@@ -30,6 +30,7 @@ function displayProducts(products) {
         priceElement.textContent = "Price: $" + product.price;
 
         const descriptionElement = document.createElement("p");
+        descriptionElement.classList.add("description");
         descriptionElement.textContent = product.description;
 
         const typeElement = document.createElement("p");
