@@ -1,5 +1,4 @@
-
-.nav-footer{
+.nav-footer {
     display: flex;
     justify-content: space-between;
     margin: 10px;
@@ -9,19 +8,24 @@
     display: inline-block;
     padding: 8px 16px;
     text-decoration: none;
-    background-color: #007BFF; 
-    color: #fff; 
-    border: 1px solid #007BFF; 
-    border-radius: 4px; 
+    background-color: #f4f4f4;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease; 
-
-    
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .link-button:hover,
 .link-button:focus {
-    background-color: #0056b3; 
-    border-color: #0056b3;
-    color: #fff; 
+    background-color: #ddd;
+    border-color: #999;
+    color: #333;
+}
+
+.link-button,
+.link-button:hover,
+.link-button:focus {
+    text-decoration: none;
+    outline: none;
 }

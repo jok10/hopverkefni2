@@ -19,7 +19,7 @@ function fetchRelatedProducts(url) {
 }
 
 function displayProductDetails(product) {
-    const productDetailsContainer = document.getElementById("product-details");
+    const productDetailsContainer = document.getElementById("productDetails");
 
     const titleElement = document.createElement("h1");
     titleElement.textContent = product.title;
@@ -48,7 +48,7 @@ function displayProductDetails(product) {
 }
 
 function displayRelatedProducts(relatedProducts) {
-    const relatedProductsContainer = document.getElementsByClassName("related-products");
+    const relatedProductsContainer = document.getElementById("relatedProducts");
 
     relatedProducts.forEach(product => {
         const relatedProductDiv = document.createElement("a");
